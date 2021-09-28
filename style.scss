@@ -1,0 +1,61 @@
+body{
+    background-color: darkgray;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body section {
+    background-color: rgba($color: hsl(0, 31%, 14%), $alpha: 0.5);
+    width: 770px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 10px;
+}
+.flex{
+    display: flex;
+}
+.container{
+    height: 160px;
+    width: 800px;
+    max-height: 150px;
+    max-width: 80%;
+    float: right;
+    background-color: rgba(94, 124, 168, 0.2);
+    display: flex;
+    overflow: hidden;
+}
+.container__card{
+    height: 120px;
+    width: 120px;
+    border: transparent;
+    border-style: solid;
+}
+.container__card__image{
+    height: inherit;
+    width: inherit;
+}
+.container__card__label{
+    text-align: center;
+    color: black;
+    width: inherit;
+    height: inherit;
+    font-size: larger;
+    display: block;
+}
+.container__card__label--red{
+    color: red;
+}
+.container__card__label--blue{
+    color: blue;
+}
+.round {
+   width: 10px;
+   height: 10px;
+    border-radius: 50%;
+}
+.carousel-indicators button{
+    background-color:blue;
+    max-width: 10px;
+    max-width: 10px;
+    border-radius: 50%;
+}
