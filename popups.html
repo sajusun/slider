@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap 4 -->
+  <script src="./vendors/jquery/jquery-slim.min.js"></script>
+  <link rel="stylesheet" href="./vendors/Bootstrap/css/bootstrap.min.css">
+  <script src="./vendors/Bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Slick Slider-->
+  <link rel="stylesheet" type="text/css" href="./vendors/slick-slider/css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./vendors/slick-slider/css/slick.css" />
+  <!-- Font Awesome 5 -->
+  <link rel="stylesheet" href="./vendors/font-awesome/css/all.min.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Default Styles -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Title -->
+  <title>Techviewing.com</title>
+</head>
+
+<body>
+  <center>
+    <h1>Techviewing</h1>
+  </center>
+  <!-- permissinon pop up -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#permission_pop">permission
+    popup</button>
+
+  <div class="modal fade" id="permission_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered fixwidth" role="document">
+      <div class="modal-content bg">
+        <section id="permissionModal">
+          <div id="textContent">
+            <span class="popup_title">Permission</span>
+            <p>Are you sure?. You wnt to <span class="differ">unsubscribe</span> for <br> this "daily package".</p>
+          </div>
+          <div class="buttons">
+            <button class="yes_btn">yes</button>
+            <button class="no_btn">No</button>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!-- end permission popup -->
+
+
+  <!-- subscripbtion popup -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subscription_pop">subscription
+    popup</button>
+  <div class="modal fade" id="subscription_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered fixwidth modal_width" role="document">
+      <div class="modal-content bg">
+        <section id="subscriptionModal">
+          <div>
+            <div class="header_title">
+              <div>GP Games</div>
+              <span>Subspription</span>
+            </div>
+            <div class="choose_plan">
+              <h5 class="h5">Choose a plan</h5>
+              <div class="plan_cards">
+                <div class="plan_card">
+                  <section>
+                    <h5>Daily</h5>
+                    <small>2.67tk/-</small>
+                    <div class="package">
+                      <div>
+                        <label for=""></label>
+                        <span>1 day</span>
+                      </div>
+                      <div>
+                        <label for=""></label>
+                        <span>All Game Access</span>
+                      </div>
+                      <div>
+                        <label for=""></label>
+                        <span>Auto Renewal</span>
+                      </div>
+                    </div>
+                    <button>Subscribe now</button>
+                  </section>
+                </div>
+                <div class="plan_card">
+                  <section>
+                    <h5>weekly</h5>
+                    <small>14.99tk/-</small>
+                    <div class="package">
+                      <div>
+                        <label for=""></label>
+                        <span>1 day</span>
+                      </div>
+                      <div>
+                        <label for=""></label>
+                        <span>All Game Access</span>
+                      </div>
+                      <div>
+                        <label for=""></label>
+                        <span>Auto Renewal</span>
+                      </div>
+                    </div>
+                    <button>Subscribe now</button>
+                  </section>
+                </div>
+                <div class="plan_card" id="lastCard">
+                  <section>
+                    <h5>Montly</h5>
+                    <small>19.99tk/-</small>
+                    <div class="package">
+                      <div>
+                        <label for=""></label>
+                        <span>1 day</span>
+                      </div>
+                      <div>
+                        <label for=""></label>
+                        <span>All Game Access</span>
+                      </div>
+                      
+                    </div>
+                    <button>Subscribe now</button>
+                  </section>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      </div>
+      </section>
+    </div>
+  </div>
+  </div>
+  <!-- end subscribe tion popup -->
+
+  <!-- right tick popup -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#rightTick_pop">Right Tick
+    popup</button>
+    <div class="modal fade" id="rightTick_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered fixwidth rightTickMinW" role="document">
+      <div class="modal-content bg">
+        <section id="rightTick_modal">
+          <img src="./img/tick_mark.png" alt="noimage">
+          <p>Unsubscription Successful!</p>
+          
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!-- end right tick popup -->
+
+    <!-- Loading tick popup -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loading_pop">Loading
+      popup</button>
+      <div class="modal fade" id="loading_pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered fixwidth rightTickMinW" role="document">
+        <div class="modal-content bg">
+          <section id="rightTick_modal">
+            <img src="./img/loading2.png" alt="noimage">
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- end Loading tick popup -->
+
+
+
+
+
+
+  <!-- Js -->
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
